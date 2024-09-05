@@ -188,7 +188,7 @@ const RentDetails = () => {
       <Cards title='Milestones and gamification'
         children={
           <>
-            <ul className="timeline d-flex gap-5 ps-0 pt-3">
+            <ul className="timeline d-flex gap-5 ps-0 pt-3 pb-0">
               {items.map((item, index) => (
                 <TimelineItem
                   key={index}
@@ -198,7 +198,7 @@ const RentDetails = () => {
               ))}
             </ul>
 
-            <ul className='calendar d-flex flex-wrap gap-4 ps-0 pt-3'>
+            <ul className='calendar d-flex flex-wrap gap-4 ps-0 pt-3 pb-0'>
               {CalItems.map((item, index) => (
                 <CalendarItem
                   key={index}
