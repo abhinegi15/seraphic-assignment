@@ -1,0 +1,96 @@
+@media (max-width:1400px){
+    .card {
+        padding: 20px 20px !important;
+    }
+    .card .calendar{
+        gap: 8px !important;
+    }
+    
+}
+
+@media (max-width:1200px){
+    nav li a {
+        padding-right: 0rem;
+        border: none;
+    }
+}
+
+@media (max-width:991px){
+    .lan-btn button {
+        padding: 6px 20px;
+    }
+
+    .profile {
+        width: 140px;
+        height: 140px;
+    }
+
+    .contact-info ul {
+        flex-direction: column;
+    }
+
+    .skor-btns{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card.rent-card {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .card .calendar {
+        gap: 24px !important;
+    }
+}
+
+@media (max-width:991px){
+    .pro-sec{
+        justify-content: space-evenly;
+    }
+    .reward-points-wrapper {
+        margin-top: 10px;
+        max-width: 100%;
+    }
+    .card {
+        margin-bottom: 16px;
+        width: 100%;
+    }
+    .widget .landlord-btn{
+        justify-content: start !important;
+        margin-top: 16px;
+    }
+    .dropdown{
+        padding-left: 5px;
+    }
+}
+
+@media (max-width:426px){
+    .card.milestone-card {
+        overflow: auto;
+    }
+    .card .calendar{
+        flex-wrap: nowrap !important;
+    }
+
+    .nav-menu{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .profile {
+        width: 121px;
+        height: 120px;
+    }
+}
+
+@media (max-width:400px){
+    .pro-sec {
+        flex-direction: column;
+    }
+    .profile-details{
+        text-align: center;
+    }
+}
+

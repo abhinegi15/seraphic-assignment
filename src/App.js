@@ -1,4 +1,5 @@
-import './App.css';
+import 'assets/css/App.css';
+import 'assets/css/Responsive.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import {  Routes, Route } from "react-router-dom";

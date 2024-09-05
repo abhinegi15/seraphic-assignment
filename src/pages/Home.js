@@ -9,7 +9,7 @@ import RadialBarChart from 'components/Chart';
 const Profile = () => {
   return (
     <>
-      <div className='d-flex align-items-center gap-4 col-md-8'>
+      <div className='pro-sec d-flex align-items-center gap-4 col-12 col-md-8 col-sm-12'>
         <div className='profile'>
           <h1>CL</h1>
         </div>
@@ -38,7 +38,7 @@ const Profile = () => {
         </div>
       </div>
 
-      <div className='reward-points-wrapper col-md-4 d-flex flex-column'>
+      <div className='reward-points-wrapper col-12 col-md-4 d-flex flex-column col-sm-12'>
         <div className='reward-points d-flex align-items-center justify-content-center gap-3 p-4'>
           <i className="fa-solid fa-wallet" />
           <h4>Reward Points</h4>
@@ -107,7 +107,7 @@ const Skor = () => {
         } />
 
       <div className='row w-100 mt-3'>
-        <div className='col-md-6 d-flex justify-content-between'>
+        <div className='skor-btns col-md-6 d-flex justify-content-between'>
           <Button
             text='Regenerate Financial Score'
             startAdornment={<i className="fa-solid fa-arrows-rotate pe-2" />}
@@ -132,7 +132,7 @@ const Skor = () => {
           />
         </div>
 
-        <div className='col-md-6 d-flex justify-content-end'>
+        <div className='landlord-btn col-md-6 d-flex justify-content-end '>
 
           <Button
             text='Share Profile With Landlord'
@@ -177,7 +177,7 @@ const RentDetails = () => {
       <WidgetHeader title='Rent Details' link='profile-shared' text='View All Details' rightArrow={true} />
       <Cards title='Address' className='card rent-card'
         children={
-          <div className='rent-details-content mt-5'>
+          <div className='rent-details-content mt-auto'>
             <i className="fa-solid fa-house" />
             <h5 className='mt-3'>Virgen del Puerto</h5>
             <p className='text-white'>Carretera Nacional II, San Fernando de Henares, Madrid, 28830</p>
@@ -185,7 +185,7 @@ const RentDetails = () => {
         }
       />
 
-      <Cards title='Milestones and gamification'
+      <Cards  className='card milestone-card' title='Milestones and gamification'
         children={
           <>
             <ul className="timeline d-flex gap-5 ps-0 pt-3 pb-0">

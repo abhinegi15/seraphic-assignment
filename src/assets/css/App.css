@@ -38,20 +38,20 @@ nav{
   z-index: 9999;
 }
 
-nav ul li a{
+nav li a{
   color :#7F7F7F !important;
   border-right: 2px solid #E4E4E4;
   padding-right: 1rem;
 }
-nav ul li:nth-child(3) a{
+nav  li:nth-child(3) a{
   border: none;
 }
 
-nav ul li a.active{
+nav  li a.active{
   color :var(--black) !important;
   position: relative;
 }
-nav ul li a.active::after{
+nav  li a.active::after{
   content: '';
   position: absolute;
   background-color: var(--green);
@@ -94,6 +94,7 @@ nav ul li a.active::after{
 }
 
 /* drop down btn css */
+
 
 .dropdown {
   position: relative;
@@ -278,7 +279,7 @@ nav ul li a.active::after{
   bottom: 0;
   width: 400px;
   height: 160px;
-  background-image: url(./assets/shape.png);
+  background-image: url(../images/shape.png);
   background-repeat: no-repeat;
 }
 .rent-card  h5 {
